@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PBnSunshine Review</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="Heading">
+<h1 id="title">PBnSunshine Restaurant Review</h1>
+  <p id="description"><i>Thank you to taking time to complete this survey</i></p>
+  </div>
+<form id="survey-form">
+  <fieldset><label id="name-label">Name</label>
+    <input required id="name" type="text" placeholder="Enter your name"/>
+  <br/>
+  <label id="email-label">Email</label>
+    <input required id="email" type="email" placeholder="Enter your email"/>
+  </br>
+  <label id="number-label">Age</label>
+    <input id="number" type="number" min="18" max="120" placeholder="Age"/>
+  <br/>
+  <label>Where are you from?</label>
+  <select id="dropdown" >
+   <option class="placeholder-value">(select one)</option>
+    <option>Gauteng</option>
+    <option>Kwa Zulu Natal</option>
+    <option>Free State</option>
+    <option>Eastern Cape</option>
+    <option>Western Cape</option>
+    <option>Northern Cape</option>
+    <option>North West</option>
+    <option>Limpopo</option>
+    <option>Mpumalanga</option>
+  </select>
+ </fieldset>
+  <fieldset><legend>Was it your first time visiting our restaurant?</legend>
+    <legend><input required type="radio" name="first-time" value="Option-yes"/>Yes
+    </legend>
+    <legend><input type="radio" name="first-time" value="Option-no"/>No
+    </legend>
+    </fieldset>
+   </legend>
+   <fieldset><legend>What did you order?</legend>
+     <legend><input type="checkbox" value="1"/>Fried Rice</legend>
+     <legend><input type="checkbox" value="2"/>Jollof Rice</legend>
+     <legend><input type="checkbox" value="3"/>Tuna Salad</legend>
+     <legend><input type="checkbox" value="4"/>Pancakes</legend>
+     <legend><input type="checkbox" value="5"/>Banana Dumpling</legend>
+     <legend><input type="checkbox" value="6"/>Oatmeal Smoothie </legend>
+     <legend><input type="checkbox" value="7"/>Apple Rush</legend>
+   </fieldset>
+   <fieldset><legend>Are there any meals you would like us to add to our menu?</legend>
+   <legend><textarea placeholder="Write you comment here..."></textarea>
+   </fieldset>
+   <input type="submit" value="Submit" id="submit"/>
+</form>
+</body>
+</html>
+
+
+
